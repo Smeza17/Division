@@ -1,0 +1,25 @@
+#include <cmath>
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main () {
+    int x=0;
+    int y=0;
+    int DivisionEntera;
+
+
+    cout << "Ingrese 1°numero: " <<endl;
+    cin >> x;
+
+    cout << "Ingrese 2°numero: " <<endl;
+    cin >> y;
+
+    DivisionEntera=x/y;
+    float DivisionReal= (float)x/y;
+
+    cout << "Valor DivisionEntera: " << DivisionEntera <<"\n";
+    cout << "Valor DivisionReal: " << DivisionReal;
+
+    return 0;
+}
